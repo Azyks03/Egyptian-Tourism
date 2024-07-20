@@ -1,0 +1,57 @@
+*{
+    font-size: 25px;
+    box-sizing: border-box;
+}
+#input{
+    text-align: center;
+    margin-top: 150px;
+}
+#name{
+    margin-right: 60px;
+    margin-bottom: 25px;
+    text-align: right;
+}
+#tel{
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+#password{
+    margin-right: 28px;
+}
+input{
+    border: none;
+    border-radius: 15px;
+    background-color: hsl(0, 4%, 76%);
+    height: 35px;
+    transition: background-color 0.3s;
+}
+input:hover{
+    background-color: hsl(0, 4%, 60%);
+}
+#Submit-Button{
+    margin-top: 50px;
+    margin-left: 37vw;
+    width: 20vw;
+    min-width: 150px;
+    height: 40px;
+    min-height: 60px;
+    font-size: 30px;
+    color: hsl(0, 0%, 70%);
+    background-color: hsl(0, 2%, 20%);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: scale 0.5s;
+}
+#Submit-Button:hover{
+    scale: 1.1;
+}
+#error-message{
+    margin-left: 36vw;
+    margin-top: 40px;
+    font-size: 28px;
+    color: red;
+}
+body{
+    background-color: lightgray;
+}

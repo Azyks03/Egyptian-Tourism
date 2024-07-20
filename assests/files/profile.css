@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+.info-button button{
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    cursor: pointer;
+    height: 0px;
+    margin-top: 13px;
+    transform: translateX(1250px);
+}
+#info-image{
+    width: 67px
+}
+#container{
+    text-align: center;
+    margin-top: 60px;
+    line-height: 50px;
+}
+#delete{
+    width: 150px;
+    height: 7vh;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 150px;
+    transition: scale 0.3s;
+}
+#delete:hover{
+    scale: 1.3;
+}
