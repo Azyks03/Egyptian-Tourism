@@ -32,6 +32,6 @@ btn.onclick = function deleteAccount(){
         sessionStorage.removeItem('token');
         sessionStorage.setItem('accountDeleted', 'true');
 
-        window.location.href = "../../mainPageA.html";
+        window.location.href = "../../MainPageA.html";
     }
 }
