@@ -95,6 +95,6 @@ setInterval(() => {
         updateValue("z", z);
     }
     updateDisplay();
-}, 3000);
+}, 1000);
 
 updateDisplay();
