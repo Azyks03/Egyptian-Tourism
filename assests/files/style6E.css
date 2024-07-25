@@ -12,105 +12,65 @@ body{
     text-align: center;
     margin: 20px;
 }
-.content #simbel{
+.content #name1{
     margin-left: 35px;
 }
-.content #simbel{
+.content #suez{
     margin-left: 20px;
     border-radius: 10px;
     float: left;
 }
-.content #simbelinfo{
+.content #suezinfo{
     font-size: 20px;
     transform: translateX(-90px);
 }
-.content #hatshepsut{
+.content #name2{
     margin-left: 35px;
 }
-.content #hatshepsut{
+.content #oldLibrary{
     margin-left: 20px;
     border-radius: 10px;
     float: left;
 }
-.content #hatshepsutinfo{
+.content #oldLibraryinfo{
     font-size: 20px;
-    transform: translateX(-90px);
+    transform: translate(-90px, 30px);
 }
-.content #karnak{
+.content #name6{
     margin-left: 35px;
 }
-.content #karnak{
+.content #gizaPyramids{
     margin-left: 20px;
     border-radius: 10px;
     float: left;
 }
-.content #karnakinfo{
+.content #gizaPyramidsinfo{
     font-size: 20px;
-    transform: translateX(-90px);
+    transform: translate(-90px, 30px);
 }
-.content #GEM{
+.content #name3{
     margin-left: 35px;
 }
-.content #edfu{
+.content #dam{
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+.content #daminfo{
+    font-size: 20px;
+    transform: translate(-90px, 12px);
+}
+.content #name4{
     margin-left: 35px;
 }
-.content #edfu{
+.content #caf{
     margin-left: 20px;
     border-radius: 10px;
     float: left;
 }
-.content #edfuinfo{
+.content #cafinfo{
     font-size: 20px;
-    transform: translateX(-90px);
-}
-.content #dendera{
-    margin-left: 35px;
-}
-.content #dandera{
-    margin-left: 20px;
-    border-radius: 10px;
-    width: 290px;
-    float: left;
-}
-.content #danderainfo{
-    font-size: 20px;
-    transform: translateX(-90px);
-}
-.content #GEM{
-    margin-left: 20px;
-    border-radius: 10px;
-    float: left;
-}
-.content #GEMinfo{
-    font-size: 20px;
-    transform: translateX(-90px);
-}
-.content #azhar{
-    margin-left: 20px;
-    border-radius: 10px;
-    float: left;
-}
-.content #azharinfo{
-    font-size: 20px;
-    transform: translateX(-90px);
-}
-.content #church{
-    margin-left: 20px;
-    border-radius: 10px;
-    float: left;
-}
-.content #churchinfo{
-    font-size: 20px;
-    transform: translateX(-90px);
-}
-.content #library{
-    margin-left: 20px;
-    border-radius: 10px;
-    float: left;
-}
-.content #libraryinfo{
-    font-size: 20px;
-    transform: translateX(-90px);
+    transform: translate(-90px, 15px);
 }
 .dropdown{
     transform: translate(1250px, -75px);
@@ -177,53 +137,8 @@ body{
     text-align: center;
 }
 #speech{
-    font-size: 23px;
+    font-size: 25px;
     margin-bottom: 100px;
     margin-left: 10px;
     padding-top: 10px;
-}
-#location1{
-    height: 50px;
-    transform: translate(1290px, -290px);
-    cursor: pointer;
-}
-#location2{
-    height: 50px;
-    transform: translate(1290px, -320px);
-    cursor: pointer;
-}
-#location3{
-    height: 50px;
-    transform: translate(1290px, -280px);
-    cursor: pointer;
-}
-#location4{
-    height: 50px;
-    transform: translate(1290px, -220px);
-    cursor: pointer;
-}
-#location5{
-    height: 50px;
-    transform: translate(1290px, -310px);
-    cursor: pointer;
-}
-#location6{
-    height: 50px;
-    transform: translate(1290px, -220px);
-    cursor: pointer;
-}
-#location7{
-    height: 50px;
-    transform: translate(1290px, -220px);
-    cursor: pointer;
-}
-#location8{
-    height: 50px;
-    transform: translate(1290px, -280px);
-    cursor: pointer;
-}
-#location9{
-    height: 50px;
-    transform: translate(1290px, -280px);
-    cursor: pointer;
 }

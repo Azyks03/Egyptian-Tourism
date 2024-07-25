@@ -15,7 +15,7 @@ body{
 .mainStuff{
     margin-top: 150px;
 }
-.mainStuff #block1{
+.mainStuff #block1, #block2, #block3, #block4{
     display: block;
     transform: translateX(75px);
     margin-left: 250px;
@@ -27,41 +27,7 @@ body{
     box-shadow: 2px 2px 3px black;
     border-radius: 15px;
 }
-.mainStuff #block2{
-    display: block;
-    transform: translateX(75px);
-    margin-left: 250px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    width: 700px;
-    height: 200px;
-    background-color: hsl(0, 2%, 50%);
-    box-shadow: 2px 2px 3px black;
-    border-radius: 15px;
-}
-.mainStuff #block3{
-    display: block;
-    transform: translateX(75px);
-    margin-left: 250px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    width: 700px;
-    height: 200px;
-    background-color: hsl(0, 2%, 50%);
-    box-shadow: 2px 2px 3px black;
-    border-radius: 15px;
-}
-.mainStuff #heading1{
-    text-align: left;
-    color: black;
-    transform: translate(20px, 20px);
-}
-.mainStuff #heading2{
-    text-align: left;
-    color: black;
-    transform: translate(20px, 20px);
-}
-.mainStuff #heading3{
+#heading1, #heading2, #heading3, #heading4{
     text-align: left;
     color: black;
     transform: translate(20px, 20px);
@@ -90,7 +56,14 @@ body{
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
-.mainStuff #button1{
+.mainStuff #history{
+    height: 200px;
+    width: 150px;
+    transform: translate(550px, -59px);
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.mainStuff #button1, #button2, #button3, #button4{
     border: none;
     border-radius: 10px;
     height: 50px;
@@ -101,56 +74,24 @@ body{
     color: hsl(0, 0%, 70%);
     font-size: 20px;
 }
-.mainStuff #button1:hover{
-    background-color: hsl(0, 2%, 10%);
-    background-color: hsl(0, 2%, 0%);
-    cursor: pointer;
-}
-.mainStuff #button2{
-    border: none;
-    border-radius: 10px;
-    height: 50px;
-    width: 170px;
-    background-color: hsl(0, 2%, 20%);
-    transition: background-color 0.5s;
-    transform: translate(370px, -110px);
-    color: hsl(0, 0%, 70%);
-    font-size: 20px;
-}
-.mainStuff #button2:hover{
-    background-color: hsl(0, 2%, 10%);
-    background-color: hsl(0, 2%, 0%);
-    cursor: pointer;
-}
-.mainStuff #button3{
-    border: none;
-    border-radius: 10px;
-    height: 50px;
-    width: 170px;
-    background-color: hsl(0, 2%, 20%);
-    transition: background-color 0.5s;
-    transform: translate(370px, -110px);
-    color: hsl(0, 0%, 70%);
-    font-size: 20px;
-}
-.mainStuff #button3:hover{
+.mainStuff #button1:hover, #button2:hover, #button3:hover, #button4:hover{
     background-color: hsl(0, 2%, 10%);
     background-color: hsl(0, 2%, 0%);
     cursor: pointer;
 }
 .mainStuff #sadatDiv{
-    transform: translate(1130px, -550px);
+    transform: translate(1130px, -900px);
 }
 .mainStuff #sadatPic{
     transform: rotateZ(15deg);
     border-radius: 20px;
 }
 .mainStuff #samira{
-    transform: translateY(-800px);
+    transform: translateY(-750px);
     border-radius: 20px;
 }
 .mainStuff #sphinxDiv{
-    transform: translate(-30px, -1300px);
+    transform: translate(-30px, -1600px);
     display: inline-block;
 }
 .mainStuff #sphinxPic{
@@ -158,7 +99,7 @@ body{
     border-radius: 20px;
 }
 .mainStuff #cairo{
-    transform: translate(1060px, -850px);
+    transform: translate(1060px, -900px);
     border-radius: 20px;
 }
 #title{

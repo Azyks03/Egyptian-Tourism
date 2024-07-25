@@ -36,6 +36,18 @@ body{
     font-size: 20px;
     transform: translate(-90px, 30px);
 }
+.content #name6{
+    margin-left: 35px;
+}
+.content #mahfouz{
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+}
+.content #mahfouzinfo{
+    font-size: 20px;
+    transform: translate(-90px, 30px);
+}
 .content #name3{
     margin-left: 35px;
 }
@@ -99,7 +111,7 @@ body{
     position: fixed;
     right: 0;
     left: 0;
-    height: 90px;
+    height: 101px;
     z-index: 1;
     background-color: hsl(0, 0%, 83%);
 }

@@ -15,7 +15,7 @@ body{
 .mainStuff{
     margin-top: 150px;
 }
-.mainStuff #block1{
+.mainStuff #block1, #block2, #block3, #block4{
     display: block;
     transform: translateX(75px);
     margin-left: 250px;
@@ -27,41 +27,7 @@ body{
     box-shadow: 2px 2px 3px black;
     border-radius: 15px;
 }
-.mainStuff #block2{
-    display: block;
-    transform: translateX(75px);
-    margin-left: 250px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    width: 700px;
-    height: 200px;
-    background-color: hsl(0, 2%, 50%);
-    box-shadow: 2px 2px 3px black;
-    border-radius: 15px;
-}
-.mainStuff #block3{
-    display: block;
-    transform: translateX(75px);
-    margin-left: 250px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    width: 700px;
-    height: 200px;
-    background-color: hsl(0, 2%, 50%);
-    box-shadow: 2px 2px 3px black;
-    border-radius: 15px;
-}
-.mainStuff #heading1{
-    text-align: right;
-    transform: translate(-30px, 30px);
-    color: black;
-}
-.mainStuff #heading2{
-    text-align: right;
-    transform: translate(-30px, 30px);
-    color: black;
-}
-.mainStuff #heading3{
+.mainStuff #heading1, #heading2, #heading3, #heading4{
     text-align: right;
     transform: translate(-30px, 30px);
     color: black;
@@ -77,7 +43,7 @@ body{
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
 }
-.mainStuff #people{
+.mainStuff #people, #history{
     height: 200px;
     width: 150px;
     transform: translateY(-66px);
@@ -86,11 +52,12 @@ body{
 }
 .mainStuff #life{
     height: 200px;
+    width: 150px;
     transform: translateY(-66px);
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
 }
-.mainStuff #button1{
+.mainStuff #button1, #button2, #button3, #button4{
     border: none;
     border-radius: 10px;
     height: 30px;
@@ -101,45 +68,13 @@ body{
     color: hsl(0, 0%, 70%);
     font-size: 20px;
 }
-.mainStuff #button1:hover{
-    background-color: hsl(0, 2%, 10%);
-    background-color: hsl(0, 2%, 0%);
-    cursor: pointer;
-}
-.mainStuff #button2{
-    border: none;
-    border-radius: 10px;
-    height: 30px;
-    width: 170px;
-    background-color: hsl(0, 2%, 20%);
-    transition: background-color 0.5s;
-    transform: translate(800px, -100px);
-    color: hsl(0, 0%, 70%);
-    font-size: 20px;
-}
-.mainStuff #button2:hover{
-    background-color: hsl(0, 2%, 10%);
-    background-color: hsl(0, 2%, 0%);
-    cursor: pointer;
-}
-.mainStuff #button3{
-    border: none;
-    border-radius: 10px;
-    height: 30px;
-    width: 170px;
-    background-color: hsl(0, 2%, 20%);
-    transition: background-color 0.5s;
-    transform: translate(800px, -100px);
-    color: hsl(0, 0%, 70%);
-    font-size: 20px;
-}
-.mainStuff #button3:hover{
+.mainStuff #button1:hover, #button2:hover, #button3:hover, #button4:hover{
     background-color: hsl(0, 2%, 10%);
     background-color: hsl(0, 2%, 0%);
     cursor: pointer;
 }
 .mainStuff #sadatDiv{
-    transform: translate(1130px, -480px);
+    transform: translate(1130px, -780px);
 }
 .mainStuff #sadatPic{
     transform: rotateZ(15deg);
@@ -150,7 +85,7 @@ body{
     border-radius: 20px;
 }
 .mainStuff #sphinxDiv{
-    transform: translate(-30px, -1230px);
+    transform: translate(-30px, -1530px);
     display: inline-block;
 }
 .mainStuff #sphinxPic{
@@ -158,7 +93,7 @@ body{
     border-radius: 20px;
 }
 .mainStuff #cairo{
-    transform: translate(1060px, -780px);
+    transform: translate(1060px, -900px);
     border-radius: 20px;
 }
 #title{

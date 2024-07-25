@@ -12,7 +12,7 @@ body{
     text-align: center;
     margin: 20px;
 }
-.content #name1{
+.content #simbel{
     text-align: right;
     margin-right: 310px;
 }
@@ -26,7 +26,7 @@ body{
     font-size: 25px;
     transform: translateX(-30px);
 }
-.content #name2{
+.content #hatshepsut{
     text-align: right;
     margin-right: 310px;
 }
@@ -40,7 +40,7 @@ body{
     font-size: 25px;
     transform: translateX(-30px);
 }
-.content #name3{
+.content #karnak{
     text-align: right;
     margin-right: 310px;
 }
@@ -54,7 +54,7 @@ body{
     font-size: 25px;
     transform: translateX(-30px);
 }
-.content #name4{
+.content #edfu{
     text-align: right;
     margin-right: 310px;
 }
@@ -68,9 +68,9 @@ body{
     font-size: 25px;
     transform: translateX(-30px);
 }
-.content #name5{
+.content #dendera{
     text-align: right;
-    margin-right: 310px;
+    margin-right: 30px;
 }
 .content #dandera{
     float: right;
@@ -80,6 +80,70 @@ body{
     border-radius: 10px;
 }
 .content #danderainfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #GeM{
+    text-align: right;
+    margin-right: 30px;
+}
+.content #GEM{
+    float: right;
+    margin-right: 20px;
+    width: 290px;
+    height: 174px;
+    border-radius: 10px;
+}
+.content #GEMinfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #Azhar{
+    text-align: right;
+    margin-right: 30px;
+}
+.content #azhar{
+    float: right;
+    margin-right: 20px;
+    width: 290px;
+    height: 174px;
+    border-radius: 10px;
+}
+.content #azharinfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #Church{
+    text-align: right;
+    margin-right: 30px;
+}
+.content #church{
+    float: right;
+    margin-right: 20px;
+    width: 290px;
+    height: 174px;
+    border-radius: 10px;
+}
+.content #churchinfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #Library{
+    text-align: right;
+    margin-right: 30px;
+}
+.content #library{
+    float: right;
+    margin-right: 20px;
+    width: 290px;
+    height: 174px;
+    border-radius: 10px;
+}
+.content #libraryinfo{
     text-align: right;
     font-size: 25px;
     transform: translateX(-30px);
@@ -176,5 +240,25 @@ body{
 #location5{
     height: 50px;
     transform: translate(20px, -280px);
+    cursor: pointer;
+}
+#location6{
+    height: 50px;
+    transform: translate(20px, -240px);
+    cursor: pointer;
+}
+#location7{
+    height: 50px;
+    transform: translate(20px, -310px);
+    cursor: pointer;
+}
+#location8{
+    height: 50px;
+    transform: translate(20px, -310px);
+    cursor: pointer;
+}
+#location9{
+    height: 50px;
+    transform: translate(20px, -310px);
     cursor: pointer;
 }

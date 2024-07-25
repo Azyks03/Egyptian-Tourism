@@ -16,27 +16,27 @@ body{
     text-align: right;
     margin-right: 40px;
 }
-.content #zewail{
+.content #suez{
     float: right;
     margin-right: 20px;
     border-radius: 10px;
     width: 267px;
 }
-.content #zewailinfo{
+.content #suezinfo{
     text-align: right;
     font-size: 25px;
-    transform: translateX(-30px);
+    transform: translateX(-40px);
 }
 .content #name2{
     text-align: right;
     margin-right: 40px;
 }
-.content #sawiras{
+.content #oldLibrary{
     float: right;
     margin-right: 20px;
     border-radius: 10px;
 }
-.content #sawirasinfo{
+.content #oldLibraryinfo{
     text-align: right;
     font-size: 25px;
     transform: translateX(-30px);
@@ -45,12 +45,12 @@ body{
     text-align: right;
     margin-right: 40px;
 }
-.content #mahfouz{
+.content #gizaPyramids{
     float: right;
     margin-right: 20px;
     border-radius: 10px;
 }
-.content #mahfouzinfo{
+.content #gizaPyramidsinfo{
     text-align: right;
     font-size: 25px;
     transform: translateX(-30px);
@@ -60,12 +60,12 @@ body{
     margin-right: 40px;
     transform: translateY(-30px);
 }
-.content #samira{
+.content #dam{
     float: right;
     margin-right: 20px;
     border-radius: 10px;
 }
-.content #samirainfo{
+.content #daminfo{
     text-align: right;
     font-size: 25px;
     transform: translateX(-30px);
@@ -74,26 +74,12 @@ body{
     text-align: right;
     margin-right: 40px;
 }
-.content #sadat{
+.content #caf{
     float: right;
     margin-right: 20px;
     border-radius: 10px;
 }
-.content #sadatinfo{
-    text-align: right;
-    font-size: 25px;
-    transform: translateX(-30px);
-}
-.content #name5{
-    text-align: right;
-    margin-right: 40px;
-}
-.content #salah{
-    float: right;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-.content #salahinfo{
+.content #cafinfo{
     text-align: right;
     font-size: 25px;
     transform: translateX(-30px);
@@ -163,7 +149,7 @@ body{
     text-align: center;
 }
 #speech{
-    transform: translate(560px, -60px);
+    transform: translate(880px, -60px);
     padding-bottom: 20px;
     padding-top: 20px;
 }

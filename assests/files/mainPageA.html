@@ -49,6 +49,12 @@
                 <img src="../images/life.jpg" id="life" alt="countryside">
             </div>
             <button onclick="life()" id="button3">زر المدن المصرية</button>
+            <div id="block4">
+                <h1 id="heading4"><big>الإنجازات المصري</big></h1>
+                <h3 id="idk">الإنجازات المصرية التي لا مثيل لها</h3>
+                <img src="../images/achievements.jpeg" id="history" alt="IDK">
+            </div>
+            <button onclick="history()" id="button4">زر الإنجازات المصرية</button>
             <div id="sadatDiv"><img src="../images/sadat.jpg" id="sadatPic" alt="muhammad anwar el-sadat"></div>
             <div><img src="../images/samira.jpg" id="samira" alt="samira mousa"></div>
             <div id="sphinxDiv"><img src="../images/sphinx.jpg" id="sphinxPic" alt="sphinx"></div>
@@ -66,17 +72,9 @@
         function life(){
             window.location.href = "lifeA.html"
         };
-
-        window.onpopstate = function(event) {
-  
-            if (window.location.pathname === '/log-in.html') {
-    
-                window.location.href = 'mainPageA.html';
-            }
-            else if(window.location.pathname === '/Sign-Up.html'){
-                window.location.href = 'mainPageA.html';
-            }
-        };
+        function history(){
+            window.location.href = "achievementsA.html"
+        }
 
         const myText = document.getElementById("title");
         const myImage  = document.getElementById("flag");
