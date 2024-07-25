@@ -3,27 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assests/files/main.css">
-    <title>مرحبا بكم في مصر</title>
+    <link rel="stylesheet" href="assests/files/style1A.css">
+    <script src="https://kit.fontawesome.com/72f9c7cde2.js" crossorigin="anonymous"></script>
+    <title>جمهورية مصر العربية</title>
 </head>
 <body>
-    <div class="container">
-        <h1>مرحبا بكم في مصر!</h1>
-        <p>اكتشف جمال وتاريخ مصر العريقز من الأهرامات العظيمة في الجيزة إلى سحر البحر الأحمر، <span id="text">نقدم لكم تجربة سياحية لا تنسى.</span></p>
-        <p>إنضم إلينا في رحلة ساحرة عبر واحدة من اقدم وأروع الوجهات السياحية في العالم <span id="text">لا تفوت فرصة اكتشاف عجائب مصر</span></p>
-    </div>
-    <div id="buttons">
-        <button onclick="logIn()" id="log-In" title="Log In">تسجيل دخول</button>
-        <button onclick="signUp()" id="Sign-Up" title="Sign Up">إنشاء حساب</button>
-    </div>
-
+    <header>
+        <div id="top-bar">
+        <h1 id="title">جمهورية مصر العربية</h1>
+        <div id="titleBox"></div>
+        <div><img src="assests/images/flag.png" id="flag"></div>
+        <div class="dropdown">
+            <div class="languageS">
+                <button id="translate"><img src="assests/images/translate.jpg" id="translate-image"></button>
+                <div class="languages">
+                    <a href="MainPageA.html" id="Arabic">عربي</a>
+                    <a href="assests/files/Main-PageE.html" id="English">English</a>
+                </div>
+            </div>
+        </div>
+        <div class="pfp-button">
+            <a href="assests/files/log-In.html" title="الصفحة الشخصية">
+            <button><img src="assests/images/pfp.jpg" id="pfp"></button>
+            </a>
+        </div>
+        </div>
+    </header>
+    <main>
+        <br><br>
+        <ul class="mainStuff">
+            <div id="block1">
+                <h1 id="heading1"><big>المعالم المصرية</big></h1>
+                <h3 id="idk">المعالم المصرية تذكر تاريخ حضارة وقفت على رأس العالم وحكمته</h3>
+                <img src="assests/images/monuments.jpg" id="monuments" alt="statue">
+            </div>
+            <button onclick="monuments()" id="button1">زر المعالم المصرية</button>
+            <div id="block2">
+                <h1 id="heading2"><big>الشخصيات المصرية</big></h1>
+                <h3 id="idk">الشخصيات المصرية العظيمة التي أحدثت تغيرات عالمية</h3>
+                <img src="assests/images/people.jpg" id="people" alt="ahmed-zewail">
+            </div>
+            <button onclick="people()" id="button2">زر الشخصيات المصرية</button>
+            <div id="block3">
+                <h1 id="heading3"><big>المدن المصرية</big></h1>
+                <h3 id="idk">المدن المصرية الجميلة التي يعشقها الملايين وترغب بها المليارات</h3>
+                <img src="assests/images/life.jpg" id="life" alt="countryside">
+            </div>
+            <button onclick="life()" id="button3">زر المدن المصرية</button>
+            <div id="block4">
+                <h1 id="heading4"><big>الإنجازات المصري</big></h1>
+                <h3 id="idk">الإنجازات المصرية التي لا مثيل لها</h3>
+                <img src="assests/images/achievements.jpeg" id="history" alt="IDK">
+            </div>
+            <button onclick="history()" id="button4">زر الإنجازات المصرية</button>
+            <audio src="assests/audio/hawk-sound.mp3" id="hawk"></audio>
+            <div id="sadatDiv"><img src="assests/images/sadat.jpg" id="sadatPic" alt="muhammad anwar el-sadat"></div>
+            <div><img src="assests/images/samira.jpg" id="samira" alt="samira mousa"></div>
+            <div id="sphinxDiv"><img src="assests/images/sphinx.jpg" id="sphinxPic" alt="sphinx"></div>
+            <div><img src="assests/images/cairo.jpg" id="cairo" alt="cairo from above"></div>
+        </ul>
+    </main>
     <script>
-        function logIn(){
+        function monuments(){
             window.location.href = "assests/files/log-In.html"
         }
-        function signUp(){
-            window.location.href = "assests/files/Sign-Up.html"
+        function people(){
+            window.location.href = "assests/files/log-In.html"
         }
+        function life(){
+            window.location.href = "assests/files/log-In.html"
+        }
+        function history(){
+            window.location.href = "assests/files/log-In.html"
+        }
+
+        const myText = document.getElementById("title");
+        const myImage  = document.getElementById("flag");
+        const hawk = document.getElementById("hawk");
+        let clickCount = 0;
+        let target = 7;
+
+        myText.addEventListener('click', () => {
+            clickCount ++;
+
+            if(clickCount === target){
+                hawk.play();
+                clickCount = 0;
+            }
+        });
+        myImage.addEventListener('click', () => {
+            clickCount ++;
+
+            if(clickCount === target){
+                hawk.play();
+                clickCount = 0;
+            }
+        });
     </script>
-</body>
 </html>
